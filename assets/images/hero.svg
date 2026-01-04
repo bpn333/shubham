@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6EE7B7" />
+      <stop offset="1" stop-color="#60A5FA" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="20" fill="#071028"/>
+  <g transform="translate(60,60)">
+    <circle cx="120" cy="120" r="80" fill="url(#g)" opacity="0.18" />
+    <rect x="240" y="30" width="520" height="360" rx="14" fill="#0b1220" stroke="#0f1724" />
+    <text x="60" y="330" fill="#9aa4b2" font-family="Inter, Arial" font-size="22">Shubham Singh</text>
+    <text x="60" y="360" fill="#cfeee3" font-family="Inter, Arial" font-size="14">Engineer · WordPress · Shopify · Design</text>
+  </g>
+</svg>

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shubham Singh — Designer & Engineer</title>
+    <meta name="description" content="Shubham Singh — engineer working on WordPress and Shopify, focused on design.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">Shubham Singh</a>
+            <nav class="nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Hi, I’m Shubham Singh</h1>
+                    <p class="lead">Engineer focused on design — building beautiful experiences on WordPress, Shopify
+                        and front-end design systems.</p>
+                    <p class="cta-row">
+                        <a class="btn" href="#work">See my work</a>
+                        <a class="btn btn-outline" href="#contact">Get in touch</a>
+                    </p>
+                </div>
+                <div class="hero-art">
+                    <img src="assets/images/hero.svg" alt="Illustration: Shubham Singh" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About</h2>
+                <p>I'm an engineer who designs and implements user-focused sites and stores. I work across WordPress and
+                    Shopify, and specialize in design, layout, and front-end polish that makes products feel trustworthy
+                    and delightful.</p>
+                <p>I enjoy turning design ideas into scalable themes and components, and refining UI details for
+                    conversion and clarity.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <img src="assets/images/wordpress.svg" alt="WordPress" />
+                        <h3>WordPress</h3>
+                        <p>Theming, custom blocks, performance.</p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/images/shopify.svg" alt="Shopify" />
+                        <h3>Shopify</h3>
+                        <p>Liquid themes, app integration, store UX.</p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/images/design.svg" alt="Design" />
+                        <h3>Design</h3>
+                        <p>Visual design, components, responsive layouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="container">
+                <h2>Selected Work</h2>
+                <div class="projects">
+                    <article class="project">
+                        <img src="assets/images/project1.svg" alt="Project demo" />
+                        <div class="project-body">
+                            <h3>Brand Shop Theme</h3>
+                            <p>Custom Shopify theme with modular sections and a focus on conversion-focused product
+                                pages.</p>
+                            <a class="link" href="#contact">Discuss</a>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <img src="assets/images/project2.svg" alt="Project demo" />
+                        <div class="project-body">
+                            <h3>Design System</h3>
+                            <p>Reusable components and patterns for fast launches and consistent UI on WordPress sites.
+                            </p>
+                            <a class="link" href="#contact">Discuss</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you'd like to work together, send a message — I'll reply promptly.</p>
+                <form id="contact-form" class="contact-form">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" required />
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" required />
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <p>
+                        <button class="btn" type="submit">Send message</button>
+                    </p>
+                </form>
+                <div id="form-result" class="form-result" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Shubham Singh — Engineer & Designer</p>
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
